@@ -1,6 +1,7 @@
 import React from 'react';
 import "./index.css";
 import OrderTask from "./OrderTask";
+import {button,div,input} from 'react-bootstrap';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
