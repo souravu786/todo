@@ -1,26 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./index.css";
+import OrderTask from "./OrderTask";
 
-function App() {
+const App =()=>{
+
+   const currDate = new Date().toLocaleDateString();  
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main_div">
+    <div className="center_div">
+    <br/>
+    <h1 className="head_part">
+      ToDo List
+    </h1>
+    <br/>
+    <p>Date: {currDate} </p>
+    <br/>
+      <div>
+        <OrderTask/>
+      </div>
+         
+    </div>
+        
     </div>
   );
-}
+  }
 
 export default App;
