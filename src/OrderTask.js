@@ -99,7 +99,7 @@ class OrderTask extends Component{
             <div>
             <hr/>
                 <button className="button_deleteAll" onClick={this.deleteallItem}>Delete All</button>
-            </div> <br/>      
+            </div> <br/>
         </div>
       </>
       )
