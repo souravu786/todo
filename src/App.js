@@ -1,6 +1,7 @@
 import React from 'react';
 import "./index.css";
 import OrderTask from "./OrderTask";
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 const App =()=>{
 
@@ -15,7 +16,6 @@ const App =()=>{
     </h1>
     <br/>
     <p>Date: {currDate} </p>
-    <br/>
       <div>
         <OrderTask/>
       </div>
