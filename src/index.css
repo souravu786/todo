@@ -16,16 +16,16 @@
 }
 
 .center_div{
-  width: 40%;
-  height: 80vh;
+  width: 50%;
+  height: auto;
   background-color: #f4f4f4;
   box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
   border-radius: 15px;
-  overflow: auto;
+  overflow: -moz-hidden-unscrollable;
 }
 
 .list_div{
-  width: 100%;
+  width: 70%, auto;
   height: 45vh;
   overflow: auto;
 }
@@ -56,8 +56,8 @@ hr{
   outline: none;
 }
 .button_add{
-  min-height: 40px;
-  width: 40px;
+  min-height: 60px;
+  width: 45px;
   border-radius: 50%;
   border-color: transparent;
   background-color: #8566aa;
@@ -88,6 +88,7 @@ hr{
   
 }
 .button_deleteAll{  
+  position: center;
   background-color: #20bf6b ;
   border-radius: 30%;
   box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
@@ -121,7 +122,14 @@ ol li{
   font-size: 20px;
   font-weight: 500;
   align-items: center;
+  list-style-type: none;
   color: #8566aa;
   text-transform: capitalize;
 }
 
+@media (max-width: 768px){
+  .center_div{
+    width: 55%;
+    height: auto;
+  }
+}
