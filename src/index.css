@@ -127,3 +127,7 @@ ol li{
   text-transform: capitalize;
 }
 
+@media (max-width: 768px){
+  .center_div{
+    width: 55%;
+  }
